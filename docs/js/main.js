@@ -236,7 +236,7 @@ var main = (function () {
             this.sidenavElements.push(element);
         }
         // Shouldn't use document.getElementById but Terminal is already using loads of params
-        document.getElementById("sidenavBtn").addEventListener("click", this.handleSidenav.bind(this));
+        document.getElementById("sidenavBtn").addEventListener("", this.handleSidenav.bind(this));
     };
 
     Terminal.prototype.handleSidenav = function (event) {
