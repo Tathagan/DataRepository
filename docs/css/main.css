@@ -117,6 +117,7 @@ body {
     display: block;
     transition: 0.3s;
     background:none !important;
+	opacity: 0;
     border:none;
 }
 #sidenav button:hover {
